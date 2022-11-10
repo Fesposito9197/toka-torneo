@@ -1,0 +1,19 @@
+@font-face {
+    font-family: JungleBold;
+    src: url(../fonts/Jungle_Roar_Bold.ttf);
+}
+
+@font-face {
+    font-family: JungleReg;
+    src: url(../fonts/Jungle_Roar_Bold.ttf);
+}
+
+h2{
+    color: #6d3d00;
+    font-family: JungleBold;
+    font-size: 2.5rem;
+}
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+}

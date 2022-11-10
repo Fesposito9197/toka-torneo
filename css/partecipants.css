@@ -1,0 +1,49 @@
+#partecipants{
+    width: 70%;
+    height: 31.25rem;
+    background-color: #ffe5b0 ;
+    margin: auto;
+    text-align: center;
+}
+
+
+#add-hero{
+    text-align: center;
+    /* height: 1.875rem;
+    width: 3.125rem; */
+    line-height: 1.875rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #F0F0F0;
+    border-radius: 10px;
+    border-bottom: 4px solid #5d211c;
+    box-shadow: 6px 6px 6px rgba(191, 150, 132, 0.7);
+    user-select: none;
+    background: #a87562;
+    transition: background 0.05s linear;
+    transition: all .05s linear;
+    margin: 8px;
+    padding:5px;
+}
+
+#add-hero:active{
+    box-shadow: 2px 2px 2px #777;
+    border-bottom: 1px solid #5d211c;
+    /* transform: translateY(3px); */
+}
+
+.partecipants-input{
+    justify-content: center;
+    align-items: center;
+}
+
+#partecipant{
+    height: 2.5rem;
+    padding: 5px;
+}
+.partecipants-list{
+    text-align: left;
+    width: 40%;
+    margin: auto;
+}

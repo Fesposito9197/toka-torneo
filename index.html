@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il torneo di Toka</title>
+    <!-- FAVICON -->
+    <link rel="icon" href="img/800x800.png"/>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap-grid.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page">
+
+        <!-- Lista partecipanti -->
+        
+        <div id="partecipants" class="m-auto" >
+            <div class="partecipants-title">
+                <h2>GLi eroi di questa sera</h2>
+            </div>
+            <div class="partecipants-input d-flex">    
+                <input type="text" name="partecipant" id="partecipant">
+                <div id="add-hero" class="btn">Aggiungi bertuccia</div>
+            </div>
+            <div class="partecipants-list__container">
+                <ul class="partecipants-list">
+                 
+                </ul>
+            </div>
+        </div>
+        
+
+    </div>
+    <template id="template-list-item">
+        <li class="partecipants-list-item">
+            
+        </li>
+    </template>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

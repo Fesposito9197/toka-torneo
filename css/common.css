@@ -1,0 +1,11 @@
+.m-auto{
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+input:focus{
+    outline: 1px solid #5d211c;
+}
