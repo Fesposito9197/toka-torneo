@@ -16,6 +16,7 @@
     font-size: 1rem;
     text-transform: uppercase;
     color: #F0F0F0;
+    border-color: #a87562;
     border-radius: 10px;
     border-bottom: 4px solid #5d211c;
     box-shadow: 6px 6px 6px rgba(191, 150, 132, 0.7);
@@ -44,6 +45,7 @@
 }
 .partecipants-list{
     text-align: left;
-    width: 40%;
+    width: 20%;
     margin: auto;
 }
+

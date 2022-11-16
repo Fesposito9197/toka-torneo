@@ -4,6 +4,7 @@
 
 .d-flex{
     display: flex;
+    justify-content: space-between;
 }
 
 input:focus{
